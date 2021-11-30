@@ -19,7 +19,7 @@
 
 .keys {
   display: flex;
-  gap: 32px;
+  gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
