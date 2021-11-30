@@ -1,3 +1,13 @@
+body {
+   height:100vh;
+   margin:0;
+   display:flex; 
+  flex-direction:column; 
+}
+
+a {
+  color: white;
+}
 
 .content {
   display: flex;
@@ -41,6 +51,16 @@
   transform: scale(1.1);
   border-color: black;
   box-shadow: 0 0 1rem #ffc600;
+}
+
+.footer {
+  margin-top:auto;
+  background-color: #1F2937;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 32px 0;
+  color: #E5E7EB;
 }
 
 
