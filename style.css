@@ -1,0 +1,47 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.small {
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.big {
+  margin-top: 2px;
+  font-size: 32px;
+}
+
+.keys {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  flex: 1 1 auto;
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  background-color: gray;
+  border: 3px solid black;
+  border-radius: 30px;
+  transition: 100ms;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: black;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+
+
