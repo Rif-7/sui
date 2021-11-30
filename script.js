@@ -8,6 +8,8 @@ function playSound(e) {
     console.log(code);
     const audio = document.querySelector(`audio[data-key="${code}"]`);
     e.target.classList.add("playing");
+    audio.currentTime = 0;
+    audio.play();
 }
 
   const keys = Array.from(document.querySelectorAll('.image'));
